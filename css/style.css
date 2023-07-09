@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 390px) and (max-width: 1399px) {
+.container {
+    display: flex;
+}
+}
+
+.bg {
+    background-image: url(../images/mpifinal.png);
+    height: 720px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    width: 500px;
+    color: #111;
+    background-color: transparent;
+    background-color: rgba(225, 225, 225, .2);
+}
+
+.card .card-body .card-text .text-center {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    width: 500px;
+    color: #111;
+    background-color: transparent;
+    background-color: rgba(225, 225, 225, .2);
+}
